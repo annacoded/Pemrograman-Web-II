@@ -1,0 +1,32 @@
+.pink-form {
+    background-color: #ffcce6; /* Warna pink muda */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.pink-form input[type="text"],
+.pink-form input[type="number"],
+.pink-form input[type="date"],
+.pink-form input[type="datetime-local"],
+.pink-form textarea,
+.pink-form select {
+    background-color: #fff0f5; /* Warna input lebih terang */
+    border: 1px solid #ff66b3;
+}
+
+.pink-form input[type="submit"] {
+    background-color: #ff66b3; /* Warna tombol pink lebih gelap */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.pink-form input[type="submit"]:hover {
+    background-color: #ff3399;
+}
+
+.background {
+    background-color: #ffcce6;
+}
